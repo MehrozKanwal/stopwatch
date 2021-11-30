@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;1,300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body{
+
+width: 100%;
+height: 100%;
+background: rgb(20, 20, 20);
+display: flex;
+align-items: center;
+justify-content: center;
+color: #fff;
+
+
+}
+
+.watch{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: rgb(20, 20, 20);
+    border:#fff 0.7rem solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.heading{
+    font-family: 'Raleway', sans-serif;  
+    color: #fff;
+    margin-bottom: 1rem;
+    margin-left: 50px;
+    margin-top: 2rem;
+
+}
+.timerDisplay{
+    font-size: 2rem;
+}
+.buttons{
+    padding: 1rem;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: -1rem;
+}
+.button:hover{
+    background:#04AA6D;
+    cursor: pointer;
+    color: #fff;
+}
+#resetBtn:hover{
+    background: tomato;
+}
+#lapBtn:hover{
+    background: #273a87;
+}
+.button{
+    font-family: 'Raleway', sans-serif;  
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 0.7rem;
+    margin: 0.8rem;
+    width: 100%;
+    border-radius: 10%;
+    border : 2px solid yellow;
+}
+.lap{
+    margin-left: 4rem;
+
+    font-size: 1.2rem;
+}
+/* #laps{
+    overflow-y: scroll;
+} */
